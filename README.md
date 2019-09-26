@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/OpenJij/OpenJij.svg?branch=master)](https://travis-ci.org/OpenJij/OpenJij)
 
-cmake >= 3.11
+cmake >= 3.12.2
 
 - [Tutorials](https://openjij.github.io/OpenJijTutorial/_build/html/index.html)
 - [Documents](https://openjij.github.io/OpenJij/)
@@ -28,14 +28,14 @@ Linux
 # if you installed old version by apt-get
 $ apt-get purge cmake
 
-# install cmake 
+# install cmake
 $ wget https://cmake.org/files/v3.13/cmake-3.13.2.tar.gz
 $ tar xvf cmake-3.13.2.tar.gz
 $ cd cmake-3.13.2
-$ ./bootstrap && make && sudo make install 
+$ ./bootstrap && make && sudo make install
 ```
 
-### Install openjij 
+### Install openjij
 ```
 $ git clone git@github.com:OpenJij/OpenJij.git
 $ cd openjij
@@ -61,4 +61,3 @@ response = sampler.sample_ising(h={'a': -1}, J={('a','b'): 1})
 ## Community
 
 - [OpenJij Slack](https://join.slack.com/t/openjij/shared_invite/enQtNjQyMjIwMzMwNzA4LWU4ODM5ODNjZmIyMzViOTZjODAyM2NmNmM3NTcwYmE2NGFkZGFkOGE3ZWVjMTNkOWZhOTVjMGE4NDI4YjlkMzc)
-
